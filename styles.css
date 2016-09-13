@@ -1,13 +1,25 @@
 header {
   text-align: center;
-  border-style: dotted;
-  border-width: 3px;
-  border-color: black;
-  background-color: aliceblue;
+  border: 2px solid black;
+  background:url(images/ruby.png);
+  background-size: 15%;
+  background-repeat: no-repeat;
+}
+
+nav {
+    font-size: 1.5rem;
+}
+
+section h2:hover {
+  color: crimson;
+}
+
+p {
+  text-align: justify;
 }
 
 article > h4 {
-  color: red
+  color: red;
 }
 
 article li {
@@ -24,26 +36,30 @@ section {
 }
 
 footer {
-  text-align: center;
   border-style: dotted;
   border-width: 2px;
   border-color: black;
-  background-color: aliceblue;
+  background-color: crimson;
   display: block;
   bottom:0;
   width: 100%;
   padding-bottom: 20px;
   height: 30px;
-
+  color: white;
 }
 
- /*This says: li elements that are within the list-image class*/
-.list-image li {
-  margin: 2em 0;
+footer p {
+  text-align:center;
+}
+
+.list-image {
+   height: 500px;
 }
 
 .list-image img {
   height: 300px;
+  float: left;
+  margin-left: 25px;
 }
 
 .contact-left {
@@ -57,5 +73,11 @@ footer {
 }
 
 a:hover {
-    color: tomato;
+    color: crimson;
 }
+
+#review1-image {
+  float: left;
+  padding-right: 20px;
+}
+
